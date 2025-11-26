@@ -1,4 +1,4 @@
-package BankingSystem;
+package bankingsystem;
 
 public class Customer {
     private final long customerNumber;

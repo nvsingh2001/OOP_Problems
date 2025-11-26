@@ -1,4 +1,4 @@
-package InventoryManagementSystem;
+package inventorymanagementsystem;
 
 class Product {
     private int id;

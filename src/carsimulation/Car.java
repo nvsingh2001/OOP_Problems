@@ -1,4 +1,4 @@
-package carSimulation;
+package carsimulation;
 
 class Car {
     protected int speed;

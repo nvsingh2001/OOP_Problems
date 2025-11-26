@@ -1,4 +1,4 @@
-package carSimulation;
+package carsimulation;
 
 public class CarSimulation {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package InventoryManagementSystem;
+package inventorymanagementsystem;
 
 class OrderItem {
     private int productId;

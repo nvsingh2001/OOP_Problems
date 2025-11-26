@@ -1,4 +1,4 @@
-package carSimulation;
+package carsimulation;
 
 public class ElectricCar extends Car {
     public ElectricCar(int speed, double mileage, double battery) {

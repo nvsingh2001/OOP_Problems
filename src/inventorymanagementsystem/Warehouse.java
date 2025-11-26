@@ -1,4 +1,4 @@
-package InventoryManagementSystem;
+package inventorymanagementsystem;
 
 class Warehouse {
     private Product[] products;

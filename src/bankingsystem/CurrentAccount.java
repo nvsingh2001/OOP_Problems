@@ -1,4 +1,4 @@
-package BankingSystem;
+package bankingsystem;
 
 public class CurrentAccount extends Account {
     private static final double WITHDRAWAL_LIMIT = 10000000;

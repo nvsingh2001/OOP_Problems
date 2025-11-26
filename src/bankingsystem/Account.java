@@ -1,4 +1,4 @@
-package BankingSystem;
+package bankingsystem;
 
 abstract class Account {
     protected long accountNumber;

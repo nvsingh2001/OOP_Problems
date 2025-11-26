@@ -1,4 +1,4 @@
-package BankingSystem;
+package bankingsystem;
 
 public class Transaction {
     private String type;

@@ -1,4 +1,4 @@
-package BankingSystem;
+package bankingsystem;
 
 public class SavingAccount extends Account {
     private static final double WITHDRAWAL_LIMIT = 1000000;

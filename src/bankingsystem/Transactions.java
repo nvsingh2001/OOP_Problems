@@ -1,4 +1,4 @@
-package BankingSystem;
+package bankingsystem;
 
 public class Transactions {
     private static final int initialCapacity = 100;
