@@ -1,4 +1,4 @@
-package customArray;
+package customarray;
 
 class MyArray<T> {
     private static final int initialCapacity = 10;

@@ -1,4 +1,4 @@
-package customArray;
+package customarray;
 
 
 public class CustomDynamicArray {
