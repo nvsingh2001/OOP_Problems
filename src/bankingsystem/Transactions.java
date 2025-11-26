@@ -1,15 +1,17 @@
 package bankingsystem;
 
 public class Transactions {
-    private static final int initialCapacity = 100;
+    private static final int INITIAL_CAPACITY = 100;
     private int capacity;
     private int size;
     private Transaction[]  transactions;
+
     public Transactions() {
-        capacity = initialCapacity;
+        capacity = INITIAL_CAPACITY;
         size = 0;
         transactions = new Transaction[capacity];
     }
+
     private void resize() {
         capacity *= 2;
         Transaction[] tempArray = new Transaction[capacity];
@@ -34,6 +36,7 @@ public class Transactions {
     public int size() {
         return size;
     }
+
     public void printStatements(){
         for (int i = 0; i < size; i++) {
             System.out.println(transactions[i].toString());

@@ -4,6 +4,7 @@ public class ElectricCar extends Car {
     public ElectricCar(int speed, double mileage, double battery) {
         super(speed, mileage, battery);
     }
+
     @Override
     public void drive(int hours) {
         if(fuel <= 0 && fuel < distance/mileage){

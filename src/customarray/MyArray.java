@@ -1,7 +1,7 @@
 package customarray;
 
 class MyArray<T> {
-    private static final int initialCapacity = 10;
+    private static final int INITIAL_CAPACITY = 10;
     private T[] array;
     private int capacity;
     private int size;
@@ -13,7 +13,7 @@ class MyArray<T> {
     }
 
     public MyArray() {
-        capacity = initialCapacity;
+        capacity = INITIAL_CAPACITY;
         size = 0;
         array = (T[]) new Object[capacity];
     }

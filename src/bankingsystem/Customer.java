@@ -1,15 +1,15 @@
 package bankingsystem;
 
 public class Customer {
-    private final long customerNumber;
+    private final long CUSTOMER_ID;
     private String fullName;
     private String email;
     private String phoneNumber;
     Account[] accounts = new Account[10];
     private int numberOfAccounts;
 
-    public Customer(long customerNumber, String fullName, String email, String phoneNumber) {
-        this.customerNumber = customerNumber;
+    public Customer(long customerID, String fullName, String email, String phoneNumber) {
+        this.CUSTOMER_ID = customerID;
         this.fullName = fullName;
         this.email = email;
         this.phoneNumber = phoneNumber;
@@ -35,7 +35,6 @@ public class Customer {
     public String getPhoneNumber() {
         return phoneNumber;
     }
-
 
     public void setPhoneNumber(String phoneNumber) {
         this.phoneNumber = phoneNumber;
