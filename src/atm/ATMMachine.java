@@ -16,7 +16,7 @@ public class ATMMachine {
     }
 
     static boolean isAccountLocked(User user){
-        return user.getFaildedAttempts() >= 5;
+        return user.getFailedAttempts() >= 5;
     }
 
     static User login(Scanner input){
@@ -43,7 +43,7 @@ public class ATMMachine {
 
         if(user.getPIN() != pin){
             System.out.println("Invalid PIN");
-            user.setFaildedAttempts(user.getFaildedAttempts() + 1);
+            user.setFailedAttempts(user.getFailedAttempts() + 1);
             return null;
         }
         return user;
